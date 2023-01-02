@@ -1,0 +1,18 @@
+{
+  "titles": {
+    "curieLife": "Curie Life",
+    "home": "Home",
+    "routeMapPlanner": "Route Map Planner",
+    "routePlanner": "Route Planner",
+    "employeeDetails": "Employee Details",
+    "cabDefinition": "Cab Definition",
+    "cabScheduler": "Cab Scheduler",
+    "workFlow": "Workflow"
+  },
+  "common": {
+    "errorMsg": {
+      "noErrors": "No errors.",
+      "unknownError": "An error occurred during the process. Please try again later."
+    }
+  }
+}
