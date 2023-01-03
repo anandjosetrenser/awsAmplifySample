@@ -1,5 +1,6 @@
 import { lazy, Suspense, useContext } from 'react'
 
+import { withAuthenticator } from '@aws-amplify/ui-react'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 
 import { AppContainer, Container } from './common/styles'
@@ -70,4 +71,4 @@ function App() {
   )
 }
 
-export default App
+export default withAuthenticator(App)
